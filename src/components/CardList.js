@@ -3,9 +3,7 @@ import Card from './Card';
 
 const CardList = (props) => {
   const { robots } = props;
-  if (true) {
-    throw new Error('NOOOOOOOOO');
-  }
+
   return (
     <div>
       {robots.map((robot, i) => {
